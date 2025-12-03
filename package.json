@@ -11,13 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/zheshek/frontend-project-44.git"
   },
-  "author": "",
+  "author": "zheshek",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zheshek/frontend-project-44/issues"
   },
   "homepage": "https://github.com/zheshek/frontend-project-44#readme",
-  "dependencies": {
-    "lodash": "^4.17.21"
+  "bin": {
+    "brain-games": "bin/brain-games.js"
   }
 }
