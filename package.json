@@ -1,11 +1,12 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "type": "module",
   "description": "[![Actions Status](https://github.com/zheshek/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/zheshek/frontend-project-44/actions)",
-  "main": "index.js",
+  "main": "src/cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,22 @@
   },
   "homepage": "https://github.com/zheshek/frontend-project-44#readme",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
+  },
+  "keywords": [
+    "brain-games",
+    "hexlet",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.5.1",
+    "eslint": "^8.57.0"
   }
 }
