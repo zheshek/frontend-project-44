@@ -13,6 +13,9 @@ node bin/brain-calc.js
 brain-gcd:
 node bin/brain-gcd.js
 
+brain-progression:
+node bin/brain-progression.js
+
 publish:
 npm publish --dry-run
 
@@ -22,4 +25,4 @@ npx eslint .
 test:
 npm test
 
-.PHONY: install brain-games brain-even brain-calc brain-gcd publish lint test
+.PHONY: install brain-games brain-even brain-calc brain-gcd brain-progression publish lint test
