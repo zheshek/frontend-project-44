@@ -14,7 +14,7 @@ export const generateRound = () => {
   const start = getRandomNumber(1, 20)
   const step = getRandomNumber(1, 10)
   const length = getRandomNumber(5, 10)
-  
+
   const progression = generateProgression(start, step, length)
   const hiddenIndex = getRandomNumber(0, length - 1)
   const correctAnswer = String(progression[hiddenIndex])
