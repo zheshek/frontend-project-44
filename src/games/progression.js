@@ -1,4 +1,4 @@
-import getRandomNumber from '../src/utils.js'
+import getRandomNumber from '../utils.js'
 
 const generateProgression = (start, step, length) => {
   const progression = []

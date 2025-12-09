@@ -1,4 +1,4 @@
-import getRandomNumber from '../src/utils.js'
+import getRandomNumber from '../utils.js'
 
 const calculate = (num1, num2, operator) => {
   switch (operator) {
